@@ -1,0 +1,289 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// .. GENERAL Styles
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+html, body {
+  font-family: 'Dosis', sans-serif;
+  height: 100% !important; }
+
+p {
+  font-size: 22px;
+  font-weight: 200; }
+
+/* HAMBURGER navigation */
+
+.fixed-action-btn {
+  height: 56px;
+  right: 23px;
+  top: 23px; }
+  .fixed-action-btn ul li i {
+    color: #191919; }
+
+.material-tooltip {
+  padding: 5px 10px;
+  border-radius: 0;
+  color: #fff;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  min-height: 0;
+  line-height: 120%; }
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.85); }
+
+
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  // .. INTRODUCTION (1st tier)
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+.main-container {
+  background-image: radial-gradient(circle at top left, #0079ff, #0051ab);
+  height: auto !important;
+  min-height: 100% !important;
+}
+
+.main-container .container {
+  height: auto !important;
+  min-height: 100% !important;
+}
+
+.introduction {
+  height: auto !important;
+  min-height: 100% !important;
+  color: #fff;
+  padding-top: 33px;
+  margin-bottom: 0;
+}
+
+.introduction ul > li {
+  display: inline;
+}
+
+.introduction ul {
+  margin-top: 65px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.introduction ul li {
+  flex: 1;
+  width: 200px;
+  height: 90px;
+  vertical-align: middle;
+}
+
+.introduction ul li img {
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.introduction .name {
+  margin-bottom: 0;
+  color: #000;
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.introduction .title {
+  margin-top: 0;
+  font-weight: 200;
+  font-size: 32px;
+}
+
+.introduction .divisor {
+  width: 60px;
+  height: 4px;
+  margin: 65px 0;
+  background-color: #000;
+}
+
+.introduction .highlighted {
+  background-color: #000;
+  color: #0079ff;
+  font-weight: 300;
+  padding: 0 6px;
+}
+
+.introduction .highlighted:hover {
+  color: #000;
+  background-color: #fff !important;
+}
+
+.introduction .underlined {
+  border-bottom: 1px dotted #000;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// .. WORK - Portfolio Samples
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+.work {
+  margin-top: 0 !important;
+  padding-bottom: 65px;
+  padding-top: 65px;
+  background-image: linear-gradient(0deg, #ccc, #fff);
+  /* clearfix */
+}
+
+.work p {
+  margin-bottom: 90px !important;
+  font-size: 26px;
+  font-weight: 300;
+  color: #191919;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.work .grid {
+  margin: 0 auto;
+}
+
+.work .grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.work .grid-item {
+  width: 300px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.work .grid-item img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// .. FOOTER styles
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+.footer {
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.footer ul {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul li:first-of-type {
+  color: #666;
+  text-decoration: line-through;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// .. SANDBOX
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+.container-sandbox {
+  margin: 0 !important;
+  background-image: url('../images/sand2.gif');
+  background-size: cover;
+  min-height: 84vh;
+  height: 100%;
+}
+
+.container-sandbox .description {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.dropdown-button {
+  border-radius: 0 !important;
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.dropdown-button:hover {
+  background: #000;
+  color: #fff !important;
+}
+
+#dropdown {
+  width: 250px !important;
+  background: #000 !important;
+  color: #fff !important;
+}
+
+#dropdown a {
+  color: #fff;
+}
+
+#dropdown a:hover {
+  background-color: #0079ff !important;
+}
+
+/* JS30: 01 - Drum Kit */
+.drum-kit {
+  margin: 0 !important;
+  background-image: url('images/starwars_fleet_bg.jpg');
+  background-size: cover;
+  min-height: 84vh;
+  height: 100%;
+}
+
+.keys {
+  display:flex;
+  flex:1;
+  min-height:100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border:4px solid black;
+  border-radius:5px;
+  margin:1rem;
+  font-size: 1.5rem;
+  padding:1rem .5rem;
+  transition:all .07s;
+  width:100px;
+  text-align: center;
+  color:white;
+  background:rgba(0,0,0,0.4);
+  text-shadow:0 0 5px black;
+}
+
+.playing {
+  transform:scale(1.1);
+  border-color:#ff007a;
+  box-shadow: 0 0 10px #ff007a;
+}
+
+kbd {
+  display: block;
+  font-size: 33px;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:#ff007a;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// .. GENERAL Styles
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+@media only screen and (max-width: 500px) {
+  .fixed-action-btn {
+    height: 56px;
+    right: 15px;
+    top: 12px;
+  }
+  .material-tooltip {display:none !important;}
+}
